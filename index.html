@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover1.jpeg" alt="1">
+                    <span class="songName">Co2 - Pratik Kuhad</span>
+                    <span class="songListPlay"><span class="timeStamp">2.43 <i id= "0" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                 <div class="songItem">
+                    <img src="cover2.jpeg" alt="1">
+                    <span class="songName">Winning Speech - Karan Aujla</span>
+                    <span class="songListPlay"><span class="timeStamp">3.47 <i id= "1" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div> <div class="songItem">
+                    <img src="cover3.jpeg" alt="1">
+                    <span class="songName">Slow Motion Angreja</span>
+                    <span class="songListPlay"><span class="timeStamp">4.20 <i id= "2" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div> <div class="songItem">
+                    <img src="cover4.jpeg" alt="1">
+                    <span class="songName">Malhari</span>
+                    <span class="songListPlay"><span class="timeStamp">4.04 <i id= "3" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div> <div class="songItem">
+                    <img src="cover5.jpeg" alt="1">
+                    <span class="songName">Ilahi - YJHD</span>
+                    <span class="songListPlay"><span class="timeStamp">3.49 <i id= "4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div> <div class="songItem">
+                    <img src="cover6.jpeg" alt="1">
+                    <span class="songName">Chaar Kadam - PK</span>
+                    <span class="songListPlay"><span class="timeStamp">4.02 <i id= "5" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div> <div class="songItem">
+                    <img src="cover7.jpeg" alt="1">
+                    <span class="songName">Tu Jo Mila</span>
+                    <span class="songListPlay"><span class="timeStamp">4.02 <i id= "6" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Co2 - Pratik Kuhad</span> 
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/0105e898e2.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
